@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/* Configurações Padrões*/
+:root {
+    --vermelho-primario: #FE0000;
+    --vermelho-secundario: #CB0017;
+    --preto-primario: #000;
+    --preto-secundario: #1a1a1a;
+    --branco-primario: #fff;
+    --branco-sedundário: #f8f8f8;
+
+}
+
+html, body , *{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2 {
+    color: var(--branco-primario)
+}
+
+h1 {
+    font-size: 36px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    text-align: justify;
+    padding: 0px 30px 30px 30px;
+ }
+
+/* Header */
+
+header {
+    background-color: var(--vermelho-secundario);
+    display: flex;
+    width: 100vw;
+}
+
+header img {
+    width: 65px;
+    height: 65px;
+}
+
+/*Seção Introdução*/
+
+.intro {
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)),url(../Imagens/morumbi-símbolo-sao-paulo.webp) no-repeat center;
+    background-size: cover;
+    flex-direction: column;
+    color: var(--branco-primario);
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed ;
+}
+
+.img-sp {
+    background: url(../Imagens/são-paulo-principal.jpg) no-repeat center;
+    background-size: cover;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+
+
+/* Main */
+
+main {
+    background-color: #1a1a1a;
+}
+
+/*Seção Início*/
+
+.inicio-historia {
+    background: linear-gradient( rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(../Imagens/morumbi_sao_paulo_corner_bandeira.webp),  no-repeat ;
+    background-position: center bottom;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    background-attachment: fixed ;
+}
+
+.img-sp-inicio {
+    background: url(../Imagens/saopaulofc1930.jpg) no-repeat center;
+    background-size: cover;
+    height: 12.5rem;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.taca-pai {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.text-taca {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    align-items: center;
+}
+
+.text-taca p {
+    text-align: center;
+}
+
+.campeonato-paulista {
+    background: url(../Imagens/taca-paulista.png) no-repeat center center;
+    border-radius: 20px;
+    background-size: cover;
+    height: 80px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.campeonato-brasileiro {
+    background: url(../Imagens/taca-brasileirao.png) no-repeat center center;
+    border-radius: 20px;
+    background-size: cover;
+    height: 80px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/*Seção Fim Séc. XX*/
+
+.fim-sec-xx {
+    background: linear-gradient( rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(../Imagens/MORUMBI.jpg),  no-repeat ;
+    background-position: center bottom;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    background-attachment: fixed ;
+}
+
+.img-sp-xx {
+    background: url(../Imagens/tele-santana.jpeg) no-repeat ;
+    background-size: cover;
+    height: 12.5rem;
+    border-radius: 20px;
+    margin: 30px;
+}
