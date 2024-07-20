@@ -23,15 +23,15 @@ p, h1, h2 {
 }
 
 h1 {
-    font-size: 36px;
-    padding: 20px;
+    font-size: 2.25rem;
+    padding: 1.25rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 1.625rem;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 p {
@@ -43,109 +43,109 @@ p {
 
  .text-taca {
     border: 1px solid white;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 0.625rem;
+    margin: 0.625rem;
     background-color: #00000086;
-    padding-top: 20px;
+    padding-top: 1.25rem;
  }
 
  #campeonato-paulista {
     background: url(../Imagens/trofeus/taca-paulista.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #campeonato-brasileiro {
     background: url(../Imagens/trofeus/taca-brasileirao.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #libertadores {
     background: url(../Imagens/trofeus/libertadores.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #mundial {
     background: url(../Imagens/trofeus/mundial.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #supercopa-libertadores {
     background: url(../Imagens/trofeus/supercopa_libertadores.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #recopa-sulamericana {
     background: url(../Imagens/trofeus/recopa-sulamericana.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #copa-conmebol {
     background: url(../Imagens/trofeus/Troféu-Conmebol.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #sul-americana {
     background: url(../Imagens/trofeus/sul-americana.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #copa-do-brasil {
     background: url(../Imagens/trofeus/copa-do-brasil.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #supercopa-do-brasil {
     background: url(../Imagens/trofeus/supercopa-do-brasil.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 #rio-sp {
     background: url(../Imagens/trofeus/torneio-rio-Sao-Paulo.png) no-repeat center center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-size: cover;
-    height: 80px;
-    width: 100px;
-    margin-bottom: 20px;
+    height: 5rem;
+    width: 6.25rem;
+    margin-bottom: 1.25rem;
 }
 
 
@@ -158,8 +158,8 @@ header {
 }
 
 header img {
-    width: 65px;
-    height: 65px;
+    width: 4.063rem;
+    height: 4.063rem;
 }
 
 /*Seção Introdução*/
@@ -182,7 +182,7 @@ header img {
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 
@@ -199,8 +199,8 @@ main {
     background: linear-gradient( rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(../Imagens/geral/morumbi_sao_paulo_corner_bandeira.webp),  no-repeat ;
     background-position: center bottom;
     background-size: cover;
-    margin: 20px;
-    border-radius: 20px;
+    margin: 1.25rem;
+    border-radius: 1.25rem;
     background-attachment: fixed ;
 }
 
@@ -208,22 +208,22 @@ main {
     background: url(../Imagens/geral/saopaulofc1930.jpg) no-repeat center;
     background-size: cover;
     height: 12.5rem;
-    border-radius: 20px;
-    margin: 30px;
+    border-radius: 1.25rem;
+    margin: 1.875rem;
 }
 
 .taca-pai {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .text-taca {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: 200px;
+    width: 9.375rem;
+    height: 12.5rem;
     align-items: center;
 }
 
@@ -238,8 +238,8 @@ main {
     background: linear-gradient( rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(../Imagens/geral/MORUMBI.jpg),  no-repeat ;
     background-position: center bottom;
     background-size: cover;
-    margin: 20px;
-    border-radius: 20px;
+    margin: 1.25rem;
+    border-radius: 1.25rem;
     background-attachment: fixed ;
 }
 
@@ -247,8 +247,8 @@ main {
     background: url(../Imagens/geral/tele-santana.jpeg) no-repeat ;
     background-size: cover;
     height: 12.5rem;
-    border-radius: 20px;
-    margin: 30px;
+    border-radius: 1.25rem;
+    margin: 1.875rem;
 }
 
 /*Seção Séc. XXI*/
@@ -257,8 +257,8 @@ main {
     background: linear-gradient( rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(../Imagens/geral/Defesa-liverpool.jpg),  no-repeat ;
     background-position: right bottom;
     background-size: cover;
-    margin: 20px;
-    border-radius: 20px;
+    margin: 1.25rem;
+    border-radius: 1.25rem;
     background-attachment: fixed ;
 }
 
@@ -266,8 +266,8 @@ main {
     background: url(../Imagens/geral/Sao-paulo-ganhando-mundial.jpg) no-repeat ;
     background-size: cover;
     height: 12.5rem;
-    border-radius: 20px;
-    margin: 30px;
+    border-radius: 1.25rem;
+    margin: 1.875rem;
 }
 
 /* Ídolos */
@@ -284,88 +284,88 @@ main {
 
 .text-div p {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.875rem;
  }
 
 .rogerio-ceni {
     background: url(../Imagens/idolos/Rogerio-Ceni.jpg) no-repeat center center;
     background-size: cover;
-    border-radius: 20px;
-    height: 300px;
-    width: 250px;
-    margin: 40px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    width: 15.625rem;
+    margin: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .rai {
     background: url(../Imagens/idolos/raí.jpeg) no-repeat center center;
     background-size: cover;
-    border-radius: 20px;
-    height: 300px;
-    width: 250px;
-    margin: 40px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    width: 15.625rem;
+    margin: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .chulapa {
     background: url(../Imagens/idolos/serguinho-chulapa.webp) no-repeat center center;
     background-size: cover;
-    border-radius: 20px;
-    height: 300px;
-    width: 250px;
-    margin: 40px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    width: 15.625rem;
+    margin: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .careca {
     background: url(../Imagens/idolos/careca.jpg) no-repeat center center;
     background-size: cover;
-    border-radius: 20px;
-    height: 300px;
-    width: 250px;
-    margin: 40px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    width: 15.625rem;
+    margin: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .franca {
     background: url(../Imagens/idolos/franca.webp) no-repeat center center;
     background-size: cover;
-    border-radius: 20px;
-    height: 300px;
-    width: 250px;
-    margin: 40px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    width: 15.625rem;
+    margin: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .hernanes {
     background: url(../Imagens/idolos/hernanes.webp) no-repeat center center;
     background-size: cover;
-    border-radius: 20px;
-    height: 300px;
-    width: 250px;
-    margin: 40px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    width: 15.625rem;
+    margin: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 /* Títulos */
 
 .espaco-div {
     background-color: var(--preto-secundario);
-    margin: 80px;
+    margin: 5rem;
 }
 
 .lista-titulos {
     background-color: var(--vermelho-secundario);
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .lista-titulos h2 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 table {
-    margin: 40px;
+    margin: 2.5rem;
     margin-bottom: 0px;
     background-color: var(--branco-sedundário);
     color: var(--vermelho-secundario);
@@ -373,7 +373,7 @@ table {
 
 td {
     border: 1px solid  black;
-    padding: 8px;
+    padding: 0.5rem;
     vertical-align: middle;
 }
 
@@ -393,13 +393,13 @@ td {
     background: url(../Imagens/geral/são-paulo-copa-do-brasil.webp) no-repeat center;
     background-size: cover;
     height: 12.5rem;
-    border-radius: 20px;
-    margin: 30px;
+    border-radius: 1.25rem;
+    margin: 1.875rem;
 }
 
 /* Footer */
 
 footer {
     background-color: var(--vermelho-secundario);
-    height: 50px;
+    height: 3.125rem;
 }

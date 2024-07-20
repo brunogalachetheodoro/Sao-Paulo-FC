@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1023px) {
+
+    .intro {
+        flex-direction: row;
+        padding: 100px 150px;
+    }
+
+    .ajuste-text {
+        text-align: justify;
+        padding: 100px 150px;
+    }
+
+    .ajuste-text h1 {
+        text-align: left;
+    }
+    
+}
