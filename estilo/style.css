@@ -34,6 +34,10 @@ h2 {
     padding-top: 1.25rem;
 }
 
+/* .h2-esquerda {
+    order: 1;
+} *
+
 p {
     text-align: justify;
     padding: 0px 30px 30px 30px;
@@ -47,6 +51,10 @@ p {
     margin: 0.625rem;
     background-color: #00000086;
     padding-top: 1.25rem;
+ }
+
+ .text-taca p {
+    padding-bottom: 1.25rem;
  }
 
  #campeonato-paulista {
@@ -166,7 +174,7 @@ header img {
 
 .intro {
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)),url(../Imagens/geral/morumbi-símbolo-sao-paulo.webp) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)),url(../Imagens/geral/morumbi-símbolo-sao-paulo.webp) no-repeat bottom center;
     background-size: cover;
     flex-direction: column;
     color: var(--branco-primario);
@@ -174,6 +182,9 @@ header img {
     justify-content: center;
     align-items: center;
     background-attachment: fixed ;
+    padding: 1.25rem;
+
+    
 }
 
 .img-sp {
@@ -200,9 +211,14 @@ main {
     background-position: center bottom;
     background-size: cover;
     margin: 1.25rem;
+    padding: 1.25rem;
     border-radius: 1.25rem;
-    background-attachment: fixed ;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
+
 
 .img-sp-inicio {
     background: url(../Imagens/geral/saopaulofc1930.jpg) no-repeat center;
@@ -211,6 +227,7 @@ main {
     border-radius: 1.25rem;
     margin: 1.875rem;
 }
+
 
 .taca-pai {
     display: flex;
@@ -239,12 +256,16 @@ main {
     background-position: center bottom;
     background-size: cover;
     margin: 1.25rem;
+    padding: 1.25rem;
     border-radius: 1.25rem;
     background-attachment: fixed ;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
 
 .img-sp-xx {
-    background: url(../Imagens/geral/tele-santana.jpeg) no-repeat ;
+    background: url(../Imagens/geral/tele-santana.jpg) no-repeat center center ;
     background-size: cover;
     height: 12.5rem;
     border-radius: 1.25rem;
@@ -258,8 +279,12 @@ main {
     background-position: right bottom;
     background-size: cover;
     margin: 1.25rem;
+    padding: 1.25rem;
     border-radius: 1.25rem;
     background-attachment: fixed ;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
 
 .img-sp-xxi {
@@ -358,6 +383,7 @@ main {
     background-color: var(--vermelho-secundario);
     text-align: center;
     padding-bottom: 3.125rem;
+
 }
 
 .lista-titulos h2 {
@@ -387,6 +413,8 @@ td {
 .futuro {
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    text-align: justify;
 }
 
 .img-sp-futuro {

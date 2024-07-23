@@ -1,19 +1,334 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1023px) {
+/*Tablets*/
+
+@media screen and (min-width: 769px) {
+
+        /* Introdução */
+
+        .intro {
+            flex-direction: row;
+            padding: 0px 0px 0px 100px;
+        }
+    
+        .ajuste-text {
+            text-align: justify;
+            padding: 50px 100px;
+            /*padding: 0px 50px 0px 20px;*/
+        }
+    
+        .ajuste-text h1 {
+            text-align: left;
+        }
+    
+        .img-sp {
+            width: 120rem;
+            height: 15rem;
+            margin-bottom: 2.55rem;
+        }
+        
+        /* Seção Início */
+    
+        .inicio-historia {
+            display: flex;
+            padding-top: 2rem;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .h2-esquerda {
+            text-align: center;
+            padding-bottom: 1.25rem;
+        }
+    
+        .img-sp-inicio {
+            width: 35rem;
+            height: 20rem;   
+        }
+    
+    
+        /*Seção Fim Séc. XX*/
+    
+        .fim-sec-xx {
+            display: flex;
+            padding-top: 2rem;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .img-sp-xx {
+            width: 35rem;
+            height: 20rem;   
+        }
+    
+        /*Seção Séc. XXI*/
+    
+        .inicio-sec-xxi {
+            display: flex;
+            padding-top: 2rem;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .img-sp-xxi {
+            width: 35rem;
+            height: 20rem;      
+        }
+    
+        /* Idolos */
+    
+        .idolos {
+            margin-top: 3rem;
+            padding-bottom: 3rem;
+        }
+    
+        .idolos h2 {
+            padding-top: 2rem;
+        }
+        
+        /* Lista De Títulos  */
+    
+        .lista-titulos {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        /* Futuro */
+    
+        .futuro {
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        .futuro p {
+            order: 1;
+            padding-left: 7.5rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    
+        .img-sp-futuro {
+            width: 120rem;
+            order: 2;
+        }
+
+}
+
+/* Small Desktops */
+@media screen and (min-width: 1023px) and (max-width: 1280px)  {
+
+    /* Introdução */
 
     .intro {
         flex-direction: row;
-        padding: 100px 150px;
+        /* padding: 100px 150px; */
+        padding: 0px 0px 0px 100px;
     }
 
     .ajuste-text {
         text-align: justify;
-        padding: 100px 150px;
+        padding: 200px 150px;
+        /*padding: 0px 50px 0px 20px;*/
     }
 
     .ajuste-text h1 {
         text-align: left;
     }
+
+    .img-sp {
+        width: 120rem;
+        height: 20rem;
+    }
     
+    /* Seção Início */
+
+    .inicio-historia {
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .h2-esquerda {
+        text-align: left;
+        padding-bottom: 1.25rem;
+    }
+
+    .img-sp-inicio {
+        width: 100rem;
+        height: 24rem;   
+    }
+
+
+    /*Seção Fim Séc. XX*/
+
+    .fim-sec-xx {
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-sp-xx {
+        width: 100rem;
+        height: 24rem;   
+    }
+
+    /*Seção Séc. XXI*/
+
+    .inicio-sec-xxi {
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-sp-xxi {
+        width: 100rem;
+        height: 24rem;   
+    }
+
+    /* Idolos */
+
+    .idolos {
+        margin-top: 5rem;
+    }
+
+    .idolos h2 {
+        padding-top: 5rem;
+    }
+    
+    /* Lista De Títulos  */
+
+    .lista-titulos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Futuro */
+
+    .futuro {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .futuro p {
+        order: 1;
+        padding-left: 7.5rem;
+    }
+
+    .img-sp-futuro {
+        width: 100rem;
+        height: 24rem;  
+        order: 2;
+    }
+
+}
+
+/* Extra Large Screens  */
+@media screen and (min-width: 1280px){
+
+    /* Introdução */
+
+    .intro {
+        flex-direction: row;
+        padding: 0px 0px 0px 100px;
+    }
+
+    .ajuste-text {
+        text-align: justify;
+        padding: 200px 150px;
+        /*padding: 0px 50px 0px 20px;*/
+    }
+    .ajuste-text h1 {
+        text-align: left;
+    }
+
+    .img-sp {
+        height: 600px;
+    }
+    
+    /* Seção Início */
+
+    .inicio-historia {
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .h2-esquerda {
+        text-align: left;
+        padding-bottom: 1.25rem;
+    }
+
+    .img-sp-inicio {
+        width: 100rem;
+        height: 24rem;   
+    }
+
+
+    /*Seção Fim Séc. XX*/
+
+    .fim-sec-xx {
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-sp-xx {
+        width: 100rem;
+        height: 24rem;   
+    }
+
+    /*Seção Séc. XXI*/
+
+    .inicio-sec-xxi {
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-sp-xxi {
+        width: 100rem;
+        height: 24rem;   
+    }
+
+    /* Idolos */
+
+    .idolos {
+        margin-top: 5rem;
+    }
+
+    .idolos h2 {
+        padding-top: 5rem;
+    }
+    
+    /* Lista De Títulos  */
+
+    .lista-titulos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Futuro */
+
+    .futuro {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .futuro p {
+        order: 1;
+        padding-left: 7.5rem;
+    }
+
+    .img-sp-futuro {
+        width: 100rem;
+        height: 24rem;  
+        order: 2;
+    }
+
 }
