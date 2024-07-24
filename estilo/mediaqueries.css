@@ -4,7 +4,63 @@
 
 @media screen and (min-width: 769px) {
 
-        /* Introdução */
+       
+        /*Header*/
+
+        
+
+        header {
+            background-color: var(--vermelho-secundario);
+            display: flex;
+            width: 100vw;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header img {
+            width: 4.063rem;
+            height: 4.063rem;
+            margin-left: 50px;
+        }
+        
+        
+        #mobile-menu {
+            cursor: pointer;
+            font-size: 32px;
+            color: var(--branco-primario);
+            visibility: hidden;
+        }
+        
+        nav {
+            display: flex;
+            flex-direction: row;
+            padding-right: 0px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        ul {
+            position: absolute;
+            top:0vh;
+            margin-top: 0px;
+            right: 0;
+            width: 50vw;
+            height: 6vh;
+            background-color: rgba(255, 255, 255, 0);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #menuescondido {
+            visibility: visible;
+        }
+
+         /* Introdução */
 
         .intro {
             flex-direction: row;
@@ -119,6 +175,10 @@
 
     /* Introdução */
 
+    #mobile-menu {
+        visibility: hidden;
+    }
+
     .intro {
         flex-direction: row;
         /* padding: 100px 150px; */
@@ -138,6 +198,16 @@
     .img-sp {
         width: 120rem;
         height: 20rem;
+    }
+
+    ul {
+        visibility: visible;
+        height: 8vh;
+
+    }
+
+    #menuescondido {
+        visibility: visible;
     }
     
     /* Seção Início */
@@ -228,7 +298,16 @@
 /* Extra Large Screens  */
 @media screen and (min-width: 1280px){
 
+    ul {
+        height: 8vh;
+
+    }
+
     /* Introdução */
+
+    #mobile-menu {
+        visibility: hidden;
+    }
 
     .intro {
         flex-direction: row;
@@ -246,6 +325,10 @@
 
     .img-sp {
         height: 600px;
+    }
+
+    #menuescondido {
+        visibility: visible;
     }
     
     /* Seção Início */
